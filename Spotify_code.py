@@ -83,6 +83,6 @@ def display_rndm_song():
     st.write(f"**Subgenero:** {random_song['Subgenero']}")
     st.write(f"**Duracion:** {random_song['Duracion']} seconds")
 
-    if st.sidebar.button ("Canción del día"):
+if st.sidebar.button ("Canción del día"):
     display_rndm_song(column_der)
 
