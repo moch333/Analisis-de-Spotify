@@ -4,7 +4,15 @@
 # In[ ]:
 
 
-#Importamos imágenes
+#Importamos librerias, imagenes, y la base de datos
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import streamlit as st
+import random
+from skimage import io
+spotify_df = pd.read_csv('./Datos/spotify_songs.csv')
 sidebar = io.imread(r"./Imagenes/Bar.png")
 
 #Portada
